@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <title>Contacto - Formulario</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <fieldset>
+        <legend>DATOS PERSONALES:</legend>
+        <div>
+          <label for="nombre">Ingrese su nombre:</label>
+          <input type="text" name="" id="nombre" />
+        </div>
+
+        <div>
+          <label for="correo">Ingrese su email:</label>
+          <input type="email" name="" id="correo" required />
+        </div>
+
+        <div>
+          <label for="pass">Ingrese su password</label>
+          <input type="password" name="" id="pass" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>OTRA INFO:</legend>
+        <div>
+          <label for="coment">Deja tu comentario:</label>
+          <textarea name="" id="coment" cols="30" rows="10"></textarea>
+        </div>
+
+        <p>Elegí tu color preferido</p>
+        <div>
+          <label for="rojo">Rojo</label>
+          <input type="radio" name="colores" id="rojo" checked />
+          <label for="verde">Verde</label>
+          <input type="radio" name="colores" id="verde" />
+          <label for="azul">Azul</label>
+          <input type="radio" name="colores" id="azul" />
+        </div>
+      </fieldset>
+      <input type="submit" value="enviar" />
+      <input type="reset" value="reset" />
+    </form>
+  </body>
+</html>
